@@ -1,1 +1,38 @@
+.btmmenurow {
+	display: flexbox;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	background-color: #FFFFFF;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 1px 0px 55px 5px #D0D2E7;
+  padding: 11px;
+  padding-left: 23px ;
+  position: fixed;
+  bottom: 0px;
+  margin-left: -11px;
+  margin-bottom: -21px ;
+  
+  
+	
+	
+}
 
+.btmmenuitem {
+	flex: 25%;
+	display: inline-flex;
+ padding-right: 17px;
+	font-size: 19px;
+} 
+
+.btmmenuitem > img {
+		position: absolute;
+		text-align: center;
+		
+}
+ .btmmenuitem > img:hover {
+ 	
+ filter: invert(1)
+ 	
+ }
